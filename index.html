@@ -108,8 +108,6 @@
 
       vkBridge.send('VKWebAppInit');
 
-      auth();
-
       function auth(){
         vkBridge.send('VKWebAppGetUserInfo').then(_info => {
           console.log(_info);
@@ -140,7 +138,7 @@
       function appShare(){
         vkBridge.send('VKWebAppShare', 
         {
-          link: 'https://vk.com/app51474189'
+          link: 'https://vk.com/app51503695'
         });
       }
 
